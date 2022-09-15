@@ -4,7 +4,7 @@ import pathlib
 import plotly.express as px
 import platform 
 plt=platform.system()
-if plt='Linux':pathlib.WindowsPath=pathlib.PosixPath
+if plt=='Linux':pathlib.WindowsPath=pathlib.PosixPath
 st.title('Transportlarni klassifikatsiyalovchi model')
 file=st.file_uploader("Rasm yuklash:,type=['jpeg','jpg','svg','gif']")
 if file:
